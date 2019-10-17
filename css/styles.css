@@ -1,0 +1,293 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* section */
+
+.white-section{
+  background-color: #fff;
+  color: #000;
+}
+
+.colored-section{
+  background-color: #17a2b8;
+  color: #fff;
+
+}
+
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3{font-family: "Montserrat-Black", sans-serif;}
+
+p {
+  color: #8f8f8f;
+}
+
+/* .download-page-hea{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.3rem;
+  width: 85%;
+  line-height: 1.5;
+  padding-bottom: 5%;
+  margin-left: 6%;
+} */
+
+/* navbar section */
+.navbar {
+  padding: 0 0 2.5rem;
+  margin: 1.5rem 0 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.fluid-container {
+  padding: 3% 10% 7%;
+  }
+
+
+/* title section */
+
+#title {
+  text-align: left;
+
+}
+/*the rule below targets not general container fluid but targets only "Title container fluid" it wont affect other parts*/
+/* "Combining two elements/ css selectors together" */
+
+#title .fluid-container{
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  /*this func made this image take 60% of its parent div */
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;}
+
+/* image section */
+.google-icon {
+  width: 30px;
+}
+
+.apple-icon {
+  width: 30px;
+}
+
+.apple-icon:hover {
+  background-color: #0b1f33;
+}
+
+
+
+.download-button1:hover {
+  background-color: #0b1f33;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+.download-button1 {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button2 {
+  margin: 5% 3% 5% 0;
+}
+.download-button2:hover{
+  background-color: #067688;
+  color: #fff;
+  border-color: #067688;
+}
+
+
+/* image section */
+
+  /* because it's already in position: absolute; so lets shift the image just by typing "right: 30%" or "use below solution" */
+  /* margin-left: 15%; */
+
+/*.rotated {
+  transform: rotate(45deg); /* Equal to rotateZ(45deg)
+  background-color: transparent;
+}*/
+
+/* feature section */
+#features {
+  padding: 7% 14%;
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.red-check-circle {
+  width: 200px;
+}
+
+.bulls-eye {
+  width: 200px;
+}
+
+.red-heart {
+  width: 250px;
+}
+
+.icon {
+  color: #17a2b8;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #8fbae8;
+}
+
+/* testimonial section */
+.colored-section#testimonials {
+  /* padding: 7% 15%; */
+  /*background-color: #33717b;*/
+  background-color: #078194;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 3%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-inner{
+  padding: 7% 16%;
+}
+
+/* press section */
+
+.colored-section#press {
+  background-color: #078194;
+}
+
+.business {
+  background-color: #422626;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 30px 20px 50px;
+}
+
+/* button section */
+.signup-button:hover {
+  color: #fff;
+}
+
+/* pricing section */
+#pricing {
+  padding: 7%;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+.price-amount{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* download-page section */
+#download-page{
+  padding: 10%;
+}
+
+.download-page-button:hover{
+  background-color: #0b1f33;
+  color: #fff;
+  border-color: #fff;
+}
+
+.download-page-button2:hover{
+  color: #000;
+  border-color: #000;
+  }
+
+.download-page-button2{
+  margin-left: 3%;
+  background-color: #fff;
+  color: #056271;
+}
+
+.btn-outline-dark:hover{
+  background-color: #c4efe5a3;
+  color: #056271;
+}
+
+.btn:hover{
+  background-color: #0b1f33;
+}
+
+.back-menu-colored{
+  color: #fff;
+}
+
+
+/* #footer section */
+
+#contact{
+  padding: 8% 15% 10%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.copyright{
+  color: #014954;
+  margin-bottom: 0;
+
+}
+
+/* @media  query section */
+
+@media(max-width:999px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
